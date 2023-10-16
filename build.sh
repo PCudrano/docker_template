@@ -3,14 +3,12 @@
 # Args management
 help()
 {
-    echo "Usage: build [ -p | --pip-req ]
-               [ -a | --apt-req ]
-               [ -h | --help  ]
-	       -- <docker build args>
-	  Options:
-    	     -h \t\t\tshow this help text
-    	     -p | --pip-req\t specify the path of the pip requirements.txt file
-	     -a | --apt-req\t specify the path of the apt requirements file"
+    echo "Usage: build [-h | --help]"
+    echo  "       build [ -p | --pip-req ] [ -a | --apt-req ] -- <docker build args>"
+    echo  "Options:"
+    echo "   -h | --help		show this help text"
+    echo "   -p | --pip-req	specify the path of the pip requirements.txt file"
+    echo "   -a | --apt-req	specify the path of the apt requirements file"
     exit 2
 }
 
