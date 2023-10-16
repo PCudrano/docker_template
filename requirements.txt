@@ -1,0 +1,8 @@
+numpy == 1.21.1
+ipython
+jupyterlab
+jupyter
+xeus-python
+notebook
+opencv-python==4.6.0.66
+
