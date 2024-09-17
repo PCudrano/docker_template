@@ -1,8 +1,8 @@
-numpy == 1.21.1
+numpy
 ipython
 jupyterlab
 jupyter
 xeus-python
 notebook
-opencv-python==4.6.0.66
+opencv-python>=4.8.1.78
 
